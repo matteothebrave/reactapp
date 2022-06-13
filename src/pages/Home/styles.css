@@ -1,0 +1,41 @@
+/* THIS IS THE STYLES WHICH AFFECTS THE CONTAINER */
+/* IT'S BEING CALLED BY <div className="container" */
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  margin: 84px 0 24px;
+}
+
+.container input {
+  width: 50%;
+  padding: 24px;
+
+  background: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.container button{
+  width: 50%;
+  padding: 24px;
+  font-weight: 700;
+  background: #CC3333;
+  color: white;
+  border-radius: 5px;
+  margin: 12px 0 84px;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.2s;
+  font-size: 16px;
+  
+}
+
+.container button:hover {
+  filter: brightness(0.9);
+
+}
